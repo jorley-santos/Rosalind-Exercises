@@ -7,8 +7,6 @@ os.chdir("C:/Users/jorle/Downloads/rosalind_files")             #Setting local w
 with open("rosalind_ini5.txt","r") as texto:            #Importing dataset 
     dna = texto.read()                                  #Saving content to dna variable
 
-
-
 dna = dna.split("\n")                       #Splitting the string on every linebreak
 
 lista=[]
@@ -22,3 +20,6 @@ for i in dna:                           #Appending the even-numbered lines
 
 for i in lista:                         
     print(i)
+
+
+#Comitting changes to test github and git
